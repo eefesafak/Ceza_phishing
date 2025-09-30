@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Farkındalık Simülasyonu</title>
+  <style>
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f4f7fb}
+    .card{background:white;border-radius:12px;padding:28px;max-width:640px;box-shadow:0 8px 30px rgba(15,20,30,0.08);text-align:center;}
+    h1{margin:0 0 8px;font-size:28px}
+    p.lead{margin:0 0 18px;color:#333}
+    .note{background:#fff6e6;border-left:4px solid #ffb74d;padding:12px;border-radius:6px;text-align:left}
+    ul{margin:8px 0 0;padding-left:20px;text-align:left}
+    .btn{display:inline-block;margin-top:18px;padding:10px 16px;border-radius:8px;text-decoration:none;border:1px solid #d0d7de}
+  </style>
+</head>
+<body>
+  <div class="card" role="main">
+    <h1>😅 Kandırıldın Efe'yi ara — Bu bir eğitim mesajıdır</h1>
+    <p class="lead">Bu bağlantıya tıklayarak küçük bir farkındalık testine dahil oldun. Hiçbir bilgi talep edilmedi ve hiçbir veri kaydedilmedi.</p>
+
+    <div class="note">
+      <strong>Kısa farkındalık notları:</strong>
+      <ul>
+        <li>Gerçek e-postalarda asla şifre veya ödeme bilgisi istenmez.</li>
+        <li>Gönderen adresine, linkin üzerine gelerek (hover) bak; hedef gerçek mi kontrol et.</li>
+        <li>Domian görünümü kafa karıştırıyorsa (rn → m vb.) dikkat et.</li>
+      </ul>
+    </div>
+
+    <a href="#" onclick="document.getElementById('extra').style.display='block';return false" class="btn">Daha fazla bilgi</a>
+
+    <div id="extra" style="display:none;margin-top:14px;text-align:left">
+      <p style="margin:8px 0 0"><strong>Öneriler:</strong></p>
+      <ul>
+        <li>E-posta gelen kutusunda şüpheli mesajları işaretleyin / silin.</li>
+        <li>Tanımadığın linklere tıklamadan önce göndereni doğrula.</li>
+        <li>Bu bir şakadır — eğer istersen, neden bu tip e-postalara dikkat etmen gerektiğini yüz yüze anlatırım 😄</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
